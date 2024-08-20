@@ -10,6 +10,7 @@ Understanding Data Persistence:
 Persistence means ensuring that even if a container is deleted, the data is not lost. There are two primary ways to achieve data persistence:
 
 Volumes: Managed by Docker, ideal for data that needs to persist beyond the container's lifecycle.
+
 Bind Mounts: Directly mounts a directory or file from the host system, useful for advanced scenarios.
 
 
