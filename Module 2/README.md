@@ -40,9 +40,9 @@ Docker network inspect myapp
 
 Now run containers with including the custom network
 
-docker run –rm -d –name app3 -p 8001 –network myapp kiran2361993:troubleshootingtools:v1
+docker run –rm -d –name app3 -p 8001 –network myapp dockerhub repo with tag
 
-docker run –rm -d –name app4 -p 8002 –network myapp kiran2361993:troubleshootingtools:v1
+docker run –rm -d –name app4 -p 8002 –network myapp dockerhub repo with tag
 
 If you login to the container with docker exec -it containername bash and you can ping with the container name instead of IP, It should work.
 
